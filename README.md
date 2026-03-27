@@ -39,7 +39,151 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ```
+<html>
+  <head>
+<title>Dribble</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body{
+        background-color:white;
+        color:black;
+        width:100%;
+        top:0;
+        text-align:left;
+        position:fixed;
+    }
 
+    .container-fluid{
+        background-color:rgb(0, 0, 0);
+
+    }
+    .card {
+        background:white;
+        padding:10px;
+        width:150px;
+        margin-top:10px;
+        border-radius:10px;
+        transition:3s;
+        background-color:rgb(0, 0, 0);
+    }
+    .card:hover{
+        transform:scale(2s);
+    }
+    .card img{
+        width:100%;
+        height:100px;
+        border-radius:10px;
+    }
+      .card h4{
+        font-weight:700px;
+        font-size:15px;
+        margin-top:5px;
+    }
+
+    .grid{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+    }
+
+
+      .top-section{
+        text-align:center;
+        padding: 20px;
+      }
+
+      .footer{
+        background:rgb(0, 0, 0);
+        color:white;
+        padding:15px;
+        margin-top:20px;
+        width:100%;
+        bottom:0;
+        position:fixed;
+        text-align:center;
+      }
+      </style>
+      </head>
+      <body>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+          <div class="navbar-header">
+          <a class="navbar-brand" href="#">Dribble</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">shots</a></li>
+          <li><a href="#">designers</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign In</a></li>
+          <li><input type="text" placeholder="Tap to Search" style="margin-top:12px";></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top-section">
+      <h3>Ancient Advanced Kingdom Of Greece</h3>
+      <p></p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <img src="img1.png">
+        <h4>the ancient philosopers</h4>
+        <p></p>
+      </div>
+      <div class="card">
+        <img src="img2.png">
+        <h4>apollos coin</h4>
+        <p></p>
+      </div>
+      <div class="card">
+        <img src="img3.png">
+        <h4>monument of athens</h4>
+        <p></p>
+      </div>
+      <div class="card">
+        <img src="img4.png">
+        <h4>big 3 philosopers</h4>
+        <p></p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <img src="img5.png">
+        <h4>ancient athens</h4>
+        <p></p>
+    </div>
+    <div class="card">
+        <img src="img6.png">
+        <h4>ancient athens today</h4>
+        <p></p>
+      </div>
+      <div class="card">
+        <img src="img7.png">
+        <h4>chronology of ancient greece</h4>
+        <p></p>
+      </div>
+      <div class="card">
+        <img src="img8.png">
+        <h4>prehistoric map of greece</h4>
+        <p></p>
+      </div>
+    </div>
+    <div class="top-section">
+      <h3>Ancient philosophy refers to the era of thought originating in ancient Greece around the 6th century BCE and persisting until the fall of the Roman Empire (roughly the 5th and 6th century CE).  It is considered the birthplace of Western culture, distinguished by its shift from mythological explanations to naturalistic and reasoned discourse about the cosmos, ethics, and human existence. 
+
+Key figures and schools define this tradition, beginning with the Pre-Socratics like Thales, Anaximander, and Heraclitus, who sought natural causes for phenomena.  This was followed by the Classical trio of Socrates, Plato, and Aristotle, whose work laid the foundations for logic, ethics, and metaphysics.  Later, Hellenistic schools such as Stoicism, Epicureanism, Cynicism, and Platonism further developed these ideas, emphasizing ethics, the nature of the good life, and the relationship between the individual and the universe. </h3>
+      <button class="btn btn-primary">Learn More..</button>
+    </div>
+    <div class="footer">
+      <p>Name:G.Shawn Ronel Register no: 25005544</p>
+    </div>
+  </body>
+</html>
 ```
 
 ## OUTPUT:
