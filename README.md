@@ -1,5 +1,5 @@
 # Case Study: Dribble Clone
-## Date:
+## Date:27/03/26
 
 ## AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
@@ -38,10 +38,12 @@ Create a footer with your name and register number.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
+```
 
+```
 
 ## OUTPUT:
 
-
+![alt text](image.png)
 ## RESULT:
 The project for responsive web design in creating a clone of dribble.com is completed successfully.
